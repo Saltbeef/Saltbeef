@@ -3,15 +3,19 @@
 
 ## Extra packages:
 
-* `apt install -y zsh curl git screen vim direnv tree mc whois python3-distutils python3-apt`
+```
+apt install -y zsh curl git screen vim direnv tree mc whois python3-distutils python3-apt
+```
 
 
 ## OhMyZSH
 
-* `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-* edit zsh theme to dieter
-* add direnv to .zshrc plugins
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# edit zsh theme to dieter
+# add direnv to .zshrc plugins
+```
 
 ## edit .vimrc
 
@@ -55,5 +59,7 @@ vbell on
 
 ## Poetry
 
-* `curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -`
+```
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+```
 
