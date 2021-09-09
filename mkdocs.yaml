@@ -1,0 +1,49 @@
+---
+# Project information
+site_name: Saltbeef's Digital Garden
+site_description: Documenting my interests
+site_author: Saltbeef
+site_url: https://garden.barren.land
+
+# Repository
+repo_name: Saltbeef/Saltbeef
+repo_url: https://github.com/Saltbeef/Saltbeef
+edit_uri: "edit/main/docs/"
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github-alt
+  language: en
+  features:
+    - navigation.sections
+    - navigation.tracking
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+docs_dir: ./docs
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+# Navigation structure
+nav:
+  - Introduction: index.md
+  - Documentation:
+        Garden: documentation/garden.md
+        Shell: documentation/shell.md
