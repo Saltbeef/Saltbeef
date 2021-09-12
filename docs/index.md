@@ -3,6 +3,6 @@
 
 ## Inspiration
 
-* [https://lyz-code.github.io/blue-book/](Blue Book)
-* [http://biostatisticien.eu/www.searchlores.org/mirrors.htm](Search Lores)
-* [https://old.reddit.com/r/DigitalGardens/](/r/DigitalGardens)
+* [Blue Book](https://lyz-code.github.io/blue-book/)
+* [Search Lores](http://biostatisticien.eu/www.searchlores.org/mirrors.htm)
+* [/r/DigitalGardens](https://old.reddit.com/r/DigitalGardens/)
